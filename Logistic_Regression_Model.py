@@ -31,7 +31,7 @@ class Logistic_Regression:
 
         # updating weights and bias using gradient descent
         self.w = self.w - self.learning_rate * dw
-        self.b = self.b - self.learning_rate * 
+        self.b = self.b - self.learning_rate * db
         
     # sigmoid equation and decision boundary
     def predict(self, X):
